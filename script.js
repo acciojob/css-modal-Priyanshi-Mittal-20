@@ -12,7 +12,7 @@ function close(e){
 }
 modal.addEventListener("click",close2)
 function close2(e){
-	if (e.target === "modal") {
+	if (e.target === e.currentTarget) {
     modal.style.display = "none";
   }
 }
